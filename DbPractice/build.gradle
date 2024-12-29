@@ -1,0 +1,10 @@
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    
+    // JSP
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    // JSTL
+    implementation group: 'org.glassfish.web', name: 'jakarta.servlet.jsp.jstl', version: '2.0.0'
+}
